@@ -37,7 +37,7 @@ Kali ini saya akan membahas solusi untuk beberapa masalah yang sering ditemukan 
   ⦁ Ganti Power Supply\
    Masalah indikator lampu menyala semua bisa jadi karena Power Supply yang kecil atau board Anda tidak bekerja dengan baik tegangan tertentu. Pastikan Power Supply sesuai dengan kebutuhan MikroTik.
 
-**D. MikroTik selalu restart**\
+**F. MikroTik selalu restart**\
   ⦁ Upgrade versi RouterBoardOS\
    Versi RouterBoardOS yang lawas dapat menjadi salah satu penyebab MikroTik selalu restart, maka upgrade versi RouterBoard OS anda dengan cara berikut:\
    1. Tekan dan tahan tombol reset;\
