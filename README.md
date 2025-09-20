@@ -7,7 +7,7 @@ Kali ini saya akan membahas solusi untuk beberapa masalah yang sering ditemukan 
  ⦁ Pastikan anda mendengar suara “klik’ saat Anda memasang kabel UTP baik itu kabel UTP untuk ISP, RouterBoard maupun untuk PC klien.\
 
 **B. Tidak bisa Akses menggunakan WInBox**\
- ⦁ Router dalam Keadaan Default Configuration\ 
+ ⦁ Router dalam Keadaan Default Configuration\
   Apa itu default configuration? Default configuration adalah konfigurasi awal yang disediakan saat kita membeli MikroTik. Pada ether1 dalam Default Configuration biasanya terdapat semacam firewall yang memblock MNDP (MikroTik Network Discovery Protocol) yang membuat WinBox tidak dapat menemukan RouterBoard Anda. Default Configuration juga biasanya juga terjadi setelah RouterBoard direset. Baik itu Hard Reset (melakukan reset langsung pada Router) maupun Soft-Reset (melakukan reset melalui WinBox). Saat melakukan Hard-Reset RouterBoard cenderung akan kembali ke Default Configuration. Lalu saat melakukan Soft-Reset Lupa untuk mencentang menu “No Default Configuration”. Solusinya adalah anda dapat melakukan Soft-Reset lalu Centang menu “No Default Configuration” seperti dibawah ini
 
 ![Reset](Reset.png)
