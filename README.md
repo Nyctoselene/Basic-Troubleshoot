@@ -10,17 +10,17 @@ Kali ini saya akan membahas solusi untuk beberapa masalah yang sering ditemukan 
  ⦁ Router dalam Keadaan Default Configuration\
   Apa itu default configuration? Default configuration adalah konfigurasi awal yang disediakan saat kita membeli MikroTik. Pada ether1 dalam Default Configuration biasanya terdapat semacam firewall yang memblock MNDP (MikroTik Network Discovery Protocol) yang membuat WinBox tidak dapat menemukan RouterBoard Anda. Default Configuration juga biasanya juga terjadi setelah RouterBoard direset. Baik itu Hard Reset (melakukan reset langsung pada Router) maupun Soft-Reset (melakukan reset melalui WinBox). Saat melakukan Hard-Reset RouterBoard cenderung akan kembali ke Default Configuration. Lalu saat melakukan Soft-Reset Lupa untuk mencentang menu “No Default Configuration”. Solusinya adalah anda dapat melakukan Soft-Reset lalu Centang menu “No Default Configuration” seperti dibawah ini
 
-![Reset](Reset.png)
+![Reset](Reset.jpg)
  
   ⦁	Neighbor Discovery Tidak Aktif\
    Kemungkinan kedua hampir mirip dengan kasus nomor satu Neighbor Discovery yang tidak aktif akan menyebabkan RouterBoard tidak terdeteksi pada Winbox. Walaupun begitu anda masih bisa terhubung menggunakan IP atau MAC Address jika Anda ingat. Namun jika tidak ada IP pada RouterBoard atau Anda lupa, anda dapat mereset RouterBoard Anda. Cara untuk disable Neighbor Discovery adalah melalui menu IP > Neighbor > Discovery Setting lalu pilih menu all
 
-![Neighbor](Neighbor.png)
+![Neighbor](Neighbor.jpg)
  
   ⦁	Pastikan MAC-Server aktif\
    MAC_Server adalah suatu fitur eksklusif yang hanya ada pada WInBox dimana Anda dapat terkoneksi dengan RouterOS menggunakan MAC-Address. Cara memastikannya adalah buka menu Tools > MAC-Server > Mac Winbox Server lalu pastikan Allowed Interface list nya adalah all
  
-![MAC](MAC.png)
+![MAC](MAC.jpg)
 
   ⦁	Interface Virtual masih Enable\
    Interface Virtual bisa berasal dari vmware atau virtualbox misalnya. Untuk mendisablenya Anda dapat masuk ke menu Open Network & Sharing center dari Control Panel
